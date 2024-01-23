@@ -1,0 +1,95 @@
+{% extends 'main.html' %}
+{% block content %}
+{% load static %}
+
+
+
+<section class="single-page-header">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-12">
+				<h2>About Us</h2>
+				<ol class="breadcrumb header-bradcrumb">
+				  <li><a href="index.html">Home</a></li>
+				  <li class="active">About Us</li>
+				</ol>
+			</div>
+		</div>
+	</div>
+</section>
+
+
+<section class="about-shot-info section-sm">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-6 mt-20">
+				<h2>Why Choose <br> DIAMOND SOFTWARE</h2>
+				<p>Discover the Diamond Software Advantage <br> 				NIGERIA Market</p>
+				<p> Innovation <br>
+					We thrive on creative thinking, ensuring your project stands out in the digital landscap</p>
+				<p>Reliability <br> Count on us for consistent, high-quality services tailored to your needs </p>
+				<p>RCustomer-Centric Approach <br>Your satisfaction is our priority; we listen and customize solutions </p>
+			</div>
+			<div class="col-md-6">
+				<img class="img-fluid" src="images/company/company-image.jpg" alt="">
+			</div>
+		</div>
+	</div>
+</section>
+
+
+
+<section class="company-mission section-sm bg-gray">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-6">
+				<h3>Our Mission</h3>
+				<p>Surpassing client expectations is our commitment. We go beyond mere software, delivering the best web solutions that transform data into knowledge. 
+					This empowerment enables clients to solve their problems efficiently and effectively. At diamond software, we believe in turning challenges into opportunities through innovative and tailored web solutions.</p>
+				<img src="{% static 'images/company/company-image-2.jpg' %}" alt="" class="img-fluid mt-30">
+			</div>
+			<div class="col-md-6">
+				<h3>Our Vision</h3>
+				<p> our vision is to a pace setler by inventing <strong>market driven design </strong> or
+					<strong>market approach design </strong> , they exhort employees to get closer to customer , stay ahead of
+				competitor </p>
+				<img src="{% static 'images/company/company-image-3.jpg' %}" alt="" class="img-fluid mt-30">
+			</div>
+		</div>
+	</div>
+</section>
+
+
+
+
+<section class="call-to-action-2 section">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-12 text-center">
+				<h2>.</h2>
+			</div>
+		</div>
+	</div>
+</section>
+
+
+
+
+
+
+
+
+<section class="call-to-action section">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-12 text-center">
+				<h2>Let's Create Something Together</h2>
+				<a href="{% url 'contact' %}" class="btn btn-main">Contact Us</a>
+			</div>
+		</div> 		<!-- End row -->
+	</div>   	<!-- End container -->
+</section>
+{% endblock %}
+
+
+
